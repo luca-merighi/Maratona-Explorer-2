@@ -1,0 +1,92 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--bg);
+    width: 50%;
+    max-width: 350px;
+
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.25rem;
+    
+    border: 2px solid var(--green-1);
+    border-radius: 50%;
+}
+
+.profile-info h3 {
+    color: var(--black-1);
+    font-size: 1.45rem;
+}
+
+.profile-info p {
+    color: var(--black-1);
+    opacity: 0.75;
+    font-weight: 400;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.links li a {
+    text-decoration: none;
+    
+    background-color: var(--green-1);
+    padding: 0.875rem;
+
+    color: var(--black-1);
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.25rem;
+
+    transition: transform 0.3s;
+}
+
+.links li a:hover {
+    transform: translateY(5px);
+}
+
+.links li a.github {
+    background-color: var(--black-1);
+    color: var(--white);
+}
+
+.links li a.linkedin {
+    background-color: #0984e3;
+    color: var(--white);
+}
+
+.links li a.instagram {
+    background: linear-gradient(
+        to right,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+    );
+    color: var(--white);
+}

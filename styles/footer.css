@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footer address {
+    color: var(--black-transparent);
+    font-style: normal;
+}
+
+.footer address span {
+    font-weight: 700;
+    color: var(--green-1);
+}
