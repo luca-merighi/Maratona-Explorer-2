@@ -10,4 +10,4 @@ Este site é uma lista de links úteis para redes sociais.
 </div>
 <br/>
 
-### [Link para a Pàgina]( "Rocket.tree")
+### [Link para a Pàgina](https://luca-merighi.github.io/Maratona-Explorer-2-Edi-o/ "Rocket.tree")
