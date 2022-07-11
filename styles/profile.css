@@ -5,6 +5,7 @@
     align-items: center;
     padding: 1.5rem;
     background-color: var(--bg);
+    min-width: 200px;
     width: 50%;
     max-width: 350px;
 
